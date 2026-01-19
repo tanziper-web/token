@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAZZEN TOKEN</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+body{
+  margin:0;
+  background:#0b0f1a;
+  color:#fff;
+}
+header{
+  padding:20px;
+  text-align:center;
+  background:linear-gradient(135deg,#1f6cff,#8b5cff);
+}
+header h1{
+  margin:0;
+  font-size:24px;
+}
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+.game-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:15px;
+}
+.game{
+  background:#131a2a;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+}
+.game img{
+  width:300px;
+  height:300px;
+  object-fit:contain;
+  margin-bottom:10px;
+}
+.form-box{
+  margin-top:30px;
+  background:#131a2a;
+  padding:20px;
+  border-radius:12px;
+}
+.form-box h2{
+  margin-top:0;
+}
+input, select, button{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:8px;
+  font-size:14px;
+}
+input, select{
+  background:#0b0f1a;
+  color:#fff;
+}
+button{
+  background:linear-gradient(135deg,#1f6cff,#8b5cff);
+  color:#fff;
+  cursor:pointer;
+}
+footer{
+  text-align:center;
+  padding:15px;
+  font-size:12px;
+  color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>NAZZEN TOKEN</h1>
+  <p>Cepat • Aman •</p>
+</header>
+
+<div class="container">
+
+  <div class="game-list">
+    <div class="game"><img src="1.png"><div>PLN</div></div>
+  </div>
+
+  <div class="form-box">
+    <h2>TOKEN LISTRIK</h2>
+
+    <select>
+      <option>PLN</option>
+    </select>
+
+    <input type="text" placeholder="NO TOKEN">
+
+    <select>
+      <option>Pilih Nominal</option>
+      <option>20K SAMPAI 1JUTA</option>
+    </select>
+
+    <select>
+      <option>Metode Pembayaran</option>
+      <option>DANA</option>
+      <option>GoPay</option>
+    </select>
+
+    <button onclick="orderWA()">Order Sekarang</button>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 NAZEN TOKEN• All Rights Reserved
+</footer>
+
+<script>
+function orderWA(){
+  window.location.href = "https://wa.link/4nz36r";
+}
+</script>
+
+</body>
+</html>
